@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<div id="menu">
+		<li><a href="#about">About Me</a></li>
+		<li><a href="#photos">My Photos</a></li>
+		<li><a href="#playlist">My Playlist</a></li>
+		<li><a href="#like">Like</a></li>
+		<li><a href="#qrcoder">QR code</a></li>
+		<li><a href="#spa">Q&A</a></li>
+		<li><a href="#contact">Contact Me</a></li>
+	</div>
+
+
+	<section id="about" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<h1 style="font-size:45px; color:#A52A2A;">About Me</h1>
+		<p>
+			Hey, my name is <b>Roman Grigorenko</b>, I`m 26 years old and born at Ukraine.<br/>
+			Now I am a student of Information Systems Engineering at Ben Gurion University.<br/>
+			My biggest hobby is to sleep &#128517;, but in free time I like to learn about cyber and watch Netflix with friends.<br/>
+			I would like to learn more about websites, my expectations from the course? -our homework would be fun, interesting and not hard &#129299;.<br/>
+		</p>
+		<br/>
+	</section>
+
+	<section id="photos" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<h1 style="font-size:45px; color:#A52A2A;">My Photos</h1>
+		<br/>
+		<br/>
+		<br/>
+		<div>
+			<img src="Photos/family.jpg" alt="family" height="250px">
+		</div>
+		<div>
+			<img src="Photos/me.jpg" alt="me" width="350px" height="250px">
+		</div>
+		<div>
+			<img src="Photos/purim.jpg" alt="purim" width="350px" height="250px" >
+		</div>
+		<br/>
+
+	</section>
+
+	<section id="playlist" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<h1 style="font-size:45px; color:#A52A2A;">My Playlist</h1>
+		<br/>
+		<br/>
+		<br/>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLajMVQDwGs7UsmwdogSzLo4TmleYveQ1t" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br/>
+	</section>
+
+	<section id="like" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		give me a like
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+		<div class="fb-like" data-href="https://www.facebook.com/roman.grig" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+		<br/>
+		<br/>
+		<br/>
+	</section>
+
+	<section id="qrcoder" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		scan my code
+		<br/>
+		<br/>
+		<br/>
+	</section>
+
+	<section id="spa" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		ans
+		<br/>
+		<br/>
+		<br/>
+	</section>
+
+	<section id="contact" class="section">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		contact me
+		<br/>
+		<br/>
+		<br/>
+	</section>
+
+
+	<script type="text/javascript">
+	$(function(){
+		$("#nav a").click(function(e){
+			e.preventDefault();
+			$('html,body').scrollTo(this.hash,this.hash);
+		});
+	});
+</script>
+<script type="text/javascript">
+$(document).scroll(function() {
+	$('#menu').toggle($(this).scrollTop()>1000)
+});​
+</script>
+</body>
+</html>
