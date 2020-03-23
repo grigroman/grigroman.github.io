@@ -24,22 +24,20 @@ section {
 	width: 100%;
 	background-color: #F1F1F1;
   text-align: center;
-  padding: 10px;
 }
 
 div{
-	margin: 0 0 0 25px;
-  display:inline-block;
+	display: inline-block;
 }
 
 
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 10px; /* Some padding */
+	width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
-  border-radius: 2px; /* Rounded borders */
+  border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
@@ -74,4 +72,10 @@ input[type=reset] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=reset]:hover {
   background-color: #45a049;
+}
+/* Add a background color and some padding around the form */
+.container {
+	width: 100%;
+	text-align: center;
+  background-color: #F1F1F1;
 }
