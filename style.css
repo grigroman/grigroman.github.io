@@ -10,7 +10,7 @@
 	font-weight: bolder;
 }
 
-li {
+#menu li{
 	border-radius: 100%;
 	margin: 0 10px 10px 100px;
   background: #F1F1F1;
