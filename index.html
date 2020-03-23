@@ -154,6 +154,7 @@
 		<br/>
 		<h1 style="font-size:45px; color:#A52A2A;">Be In Touch</h1>
   	<form action="mailto:grigorer@post.bgu.ac.il?subject=This%20is%20my%20first%20site" method="post" enctype="text/plain" >
+<<<<<<< HEAD
 
     	<label for="Name">Name</label>
 			<br/>
@@ -167,6 +168,25 @@
 			<br/>
     	<textarea name="message" placeholder="Write something.." id="messageformail" rows="3" ></textarea>
 			<br/>
+=======
+
+    	<label for="fname">Name</label>
+    	<input type="text" id="fname" name="Name " placeholder="Your Full Name..">
+
+    	<label for="lname">Subject</label>
+    	<input type="text" id="subject" name="Subject1 " placeholder="Subject..">
+
+    	<label for="Smiley">Add Smiley :)</label>
+    	<select id="smiley" name="smiley">
+    		<option value="U+1F600">&#128512;</option>
+    		<option value="U+1F614">&#128532;</option>
+    		<option value= "U+1F60D">&#128525;</option>
+    	</select>
+
+    	<label for="subject">Message</label>
+    	<textarea name="message" rows="4" cols="50" placeholder="Write something.." id="messageformail" ></textarea>
+
+>>>>>>> b04aa21af33d6a8350881ab7c4471b15dbdb0c94
     	<input type="submit" value="Submit">
 			<input type="reset" value="Reset">
   	</form>
@@ -194,9 +214,14 @@ $(document).scroll(function() {
 </script>
 
 <script type="text/javascript">
+<<<<<<< HEAD
 	$(document).ready(function() {
     	$("#messageformail").emojioneArea();
   	});
+=======
+	$("#messageformail").emojioneArea({
+		pickerPosition: "right"
+>>>>>>> b04aa21af33d6a8350881ab7c4471b15dbdb0c94
 	})
 </script>
 </body>
