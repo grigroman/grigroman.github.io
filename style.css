@@ -79,3 +79,17 @@ input[type=reset]:hover {
 	text-align: center;
   background-color: #F1F1F1;
 }
+
+* {
+  font-family: Arial, Helvetica, san-serif;
+}
+
+.emojionearea-standalone {
+  float: right;
+}
+.emoji {
+    width: 1.1em;
+    height: 1.1em;
+    padding: 0 0 0 0;
+    vertical-align: -0.15em;
+}
