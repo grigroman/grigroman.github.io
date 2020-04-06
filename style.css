@@ -4,15 +4,14 @@
 	position: fixed;
 	width: 100%;
 	height: 50px;
-	background-color: #A52A2A; /* Green background */
-	list-style-type: none;
+	background-color: #A52A2A;
 	font-style: italic;
 	font-weight: bolder;
 }
 
 #menu li{
 	border-radius: 100%;
-	margin: 0 10px 10px 100px;
+	margin: 0 10px 10px 80px;
   background: #F1F1F1;
   display:inline-block;
   line-height:25px;
@@ -21,7 +20,7 @@
 }
 
 section {
-	width: 100%;
+
 	background-color: #F1F1F1;
   text-align: center;
 }
@@ -34,7 +33,7 @@ div{
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-	width: 100%; /* Full width */
+
   padding: 12px; /* Some padding */
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
@@ -82,14 +81,4 @@ input[type=reset]:hover {
 
 * {
   font-family: Arial, Helvetica, san-serif;
-}
-
-.emojionearea-standalone {
-  float: right;
-}
-.emoji {
-    width: 1.1em;
-    height: 1.1em;
-    padding: 0 0 0 0;
-    vertical-align: -0.15em;
 }
